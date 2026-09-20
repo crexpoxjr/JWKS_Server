@@ -1,0 +1,1 @@
+This is my implementation of an authentication key server, primarily using the Flask framework, PyJWT, and cryptography libraries
