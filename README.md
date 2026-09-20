@@ -18,12 +18,12 @@ Make sure you have **Python 3.8+** installed on your system.
    cd jwks-server
 
 2. **Create virtual environment and install dependencies**
-    '''bash
+    ```bash
     python3 -m venv venv
     source venv/bin/activate  # On Windows, use: venv\Scripts\activate  
     pip install -r requirements.txt
 
-3. **Run the server and the coverage test using pytest**
-    '''bash
-    python app.py
+3. **Run coverage test and/or run the server**
+    ```bash
     pytest --cov=app --cov-report=term-missing
+    python app.py
