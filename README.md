@@ -27,3 +27,5 @@ Make sure you have **Python 3.8+** installed on your system.
     ```bash
     pytest --cov=app --cov-report=term-missing
     python app.py
+
+<img width="1009" height="414" alt="Screenshot from 2026-09-20 13-29-20" src="https://github.com/user-attachments/assets/a2880f8e-ed97-4f79-8fda-978ce2837346" />
