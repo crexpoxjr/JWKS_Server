@@ -1,5 +1,5 @@
 #Exclude the virtual environment folder
-.venv/
+venv/
 
 #Exclude Python cache files
 __pycache__/
