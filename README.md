@@ -1,1 +1,29 @@
-This is my implementation of an authentication key server, primarily using the Flask framework, PyJWT, and cryptography libraries
+# JWKS Server (Educational Project)
+
+A simple RESTful JSON Web Key Set (JWKS) server built with **Python** and **Flask**. This project handles RSA key pair generation, serves unexpired public keys at the standard well-known endpoint, issues signed JWTs via `/auth`, and supports issuing tokens signed with expired keys using a query parameter.
+
+---
+
+## Prerequisites
+
+Make sure you have **Python 3.8+** installed on your system.
+
+---
+
+## Installation & Setup
+
+1. **Clone the repository and navigate into the project directory:**
+   ```bash
+   git clone https://github.com/crexpoxjr/JWKS_Server
+   cd jwks-server
+
+2. **Create virtual environment and install dependencies**
+    '''bash
+    python3 -m venv venv
+    source venv/bin/activate  # On Windows, use: venv\Scripts\activate  
+    pip install -r requirements.txt
+
+3. **Run the server and the coverage test using pytest**
+    '''bash
+    python app.py
+    pytest --cov=app --cov-report=term-missing
