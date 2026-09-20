@@ -1,0 +1,6 @@
+#Exclude the virtual environment folder
+.venv/
+
+#Exclude Python cache files
+__pycache__/
+.pytest_cache/
